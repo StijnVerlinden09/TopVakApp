@@ -1,0 +1,42 @@
+html, body {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+.container-time {
+    margin-bottom: 2rem;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-current-time_value {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: white;
+    margin-bottom: 24px;
+}
+.container-current-time_label {
+    font-size: 16px;
+    color: white;
+}
+.container {
+    display: block;
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.cell{
+    color: white;
+}
+.container-current-activity-from-to {
+color: white;
+}
+.current-activity-description {
+    color: white
+}
