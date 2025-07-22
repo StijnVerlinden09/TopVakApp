@@ -61,4 +61,5 @@ body {
 .current-activity-time-from-to {
     color: white;
     justify-content: center;
+    text-align: center;
 }
