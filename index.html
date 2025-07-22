@@ -16,12 +16,14 @@
             <div class="container-current-time_label"></div>
             <div id="currentTime" class="container-current-time_value">huidige tijd</div>
         </div>
-        <div id="currentActivity" class="current-activity-description">de huidige activiteit</div>
+        <div class="box-container ">
+            <div id="currentActivity" class="current-activity-description">de huidige activiteit</div>
 
-        <div class="container container-current-activity-from-to">
-            <div>
-                <span>van <span id="currentActivityFrom" class="activity-time">begin</span> tot
-                <span id="currentActivityTo" class="activity-time">einduur</span></span>
+            <div class=" container-current-activity-from-to">
+                <div>
+                    <span>van <span id="currentActivityFrom" class="activity-time">begin</span> tot
+                        <span id="currentActivityTo" class="activity-time">einduur</span></span>
+                </div>
             </div>
         </div>
     </div>
@@ -40,7 +42,7 @@
     </div>
     <script src="./script.js"></script>
     <script>
-                if ('serviceWorker' in navigator) {
+        if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
                 .then(registration => {
                     console.log('Excellent, registered with scope:', registration.scope);
